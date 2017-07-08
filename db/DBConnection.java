@@ -18,7 +18,7 @@ public interface DBConnection {
      * @param businessIds
      * @return 
      */
-    public boolean setVisitedRestaurants(String userId, List<String> businessIds);
+    public void setVisitedRestaurants(String userId, List<String> businessIds);
 
     /**
      * Delete the visited restaurants for a user.

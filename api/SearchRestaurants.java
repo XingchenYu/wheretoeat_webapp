@@ -14,6 +14,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import db.DBConnection;
+import db.MongoDBConnection;
 import db.MySQLDBConnection;
 
 /**
@@ -23,6 +24,7 @@ import db.MySQLDBConnection;
 public class SearchRestaurants extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private DBConnection connection = new MySQLDBConnection();
+//	private DBConnection connection = new MongoDBConnection();
        
     /**
      * @see HttpServlet#HttpServlet()
